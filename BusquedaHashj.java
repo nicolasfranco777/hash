@@ -10,14 +10,14 @@ public class BusquedaHashj {
         mapa.put(3, "Brasil");
         mapa.put(4, "Chile");
 
-        int claveBuscada = 6;
+        int claveBuscada = 3;
         if (mapa.containsKey(claveBuscada)) {
             System.out.println("Encontrado: clave " + claveBuscada + " -> " + mapa.get(claveBuscada));
         } else {
             System.out.println("Clave " + claveBuscada + " no encontrada.");
         }
 
-        String paisBuscado = "Bolivia";
+        String paisBuscado = "Argentina";
         if (mapa.containsValue(paisBuscado)) {
             System.out.println("El valor '" + paisBuscado + "' está en la tabla hash.");
         } else {
